@@ -265,7 +265,7 @@ footer {
     float: none !important;
     padding: 0;
     position: fixed;
-    height: 420px !important;
+    height: 100%;
     top: 80px !important;
     width: 100%;
     overflow-x: hidden;
