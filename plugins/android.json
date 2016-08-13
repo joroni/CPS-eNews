@@ -8,8 +8,24 @@
     },
     "installed_plugins": {
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
+            "PACKAGE_NAME": "com.ko.cpsapp"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "com.phonegap.plugins.PushPlugin": {
+            "PACKAGE_NAME": "com.ko.cpsapp"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.ko.cpsapp"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ko.cpsapp"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.ko.cpsapp"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.ko.cpsapp"
+        }
+    }
 }

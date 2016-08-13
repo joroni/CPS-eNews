@@ -98,6 +98,10 @@ function navController(){
     $("#btnAbout").click(function(){
                     window.location = "about.html";
                     });
+					
+	 $("#btnTemplates").click(function(){
+                    window.location = "templates.html";
+                    });
 
     $("#btnSettings").click(function(){
                      window.location = "settings.html";
