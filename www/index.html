@@ -10,6 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="css/custom.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="css/bootstrap-drawer.css">
+        <link rel="stylesheet" type="text/css" href="css/horizon-swiper.min.css">
       
 	</head>
 	<body class="has-offcanvas archive">
@@ -29,10 +30,10 @@
 					<h4 class="drawer-title">MENU</h4>
 				</div>
 				<ul class="drawer-fullnav" id="doc-nav">
-					<li role="presentation"><a href="index.html">Home / Basic Usage</a></li>
-					<li role="presentation"><a href="customize.html">Position / Colors</a></li>
-					<li role="presentation" class="active"><a href="javascript.html">data-toggle / Javascript</a></li>
-					<li role="presentation"><a href="less.html">Using Less</a></li>
+					
+					<li role="presentation" class="active"><a href="javascript.html">Register</a></li>
+					<li role="presentation"><a href="login.html">Login</a></li>
+                    <li role="presentation"><a href="about.html">About</a></li>
 				</ul>
 				
 			</div>
@@ -71,7 +72,7 @@
 						</div>
 						<div class="row mix-grid thumbnails">
 							<div class="col-md-6 col-xs-6 mix cat_nature cat_all">
-								<a class="thumbnail-item" href="cover-single3.html">
+								<a class="thumbnail-item" href="cover-single.html">
 									<img src="assets/img/gallery/6.png" alt="Nature 1"/>
 									<div class="thumbnail-info">
 										<p>A sampler title</p>
@@ -80,7 +81,7 @@
 								</a>
 							</div>
 							<div class="col-md-6 col-xs-6 mix cat_space cat_all">
-								<a class="thumbnail-item" href="cover-single3.html">
+								<a class="thumbnail-item" href="cover-single.html">
 									<img src="assets/img/gallery/5.png" alt="Space 1"/>
 									<div class="thumbnail-info">
 										<p>Curabitur ut lorem</p>
@@ -89,7 +90,7 @@
 								</a>
 							</div>
 							<div class="col-md-6 col-xs-6 mix cat_nature cat_all">
-								<a class="thumbnail-item" href="cover-single3.html">
+								<a class="thumbnail-item" href="cover-single.html">
 									<img src="assets/img/gallery/1.jpg" alt="Nature 2"/>
 									<div class="thumbnail-info">
 										<p>Tincidunt et eget purus</p>
@@ -98,7 +99,7 @@
 								</a>
 							</div>
 							<div class="col-md-6 col-xs-6 mix cat_music cat_all">
-								<a class="thumbnail-item" href="cover-single3.html">
+								<a class="thumbnail-item" href="cover-single.html">
 									<img src="assets/img/gallery/2.jpg" alt="Music 2"/>
 									<div class="thumbnail-info">
 										<p>Malesuada tincidunt et eget purus</p>
@@ -141,32 +142,7 @@
 			<!-- ./page content -->
 			<!-- page footer -->
             
-			<div class="page-footer" style="display:none;">
-				<!-- page footer wrap -->
-				<div class="page-footer-wrap bg-darken-gray" style="display:none;">
-					<!-- page footer holder -->
-					<div class="page-footer-holder">
-						<!-- copyright -->
-						<div class="copyright">
-							&copy; 2014 Atlant Theme by <a href="#">Aqvatarius</a> - All Rights Reserved                            
-						</div>
-						<!-- ./copyright -->
-						<!-- social links -->
-						<div class="social-links">
-							<a href="#"><span class="fa fa-facebook"></span></a>
-							<a href="#"><span class="fa fa-twitter"></span></a>
-							<a href="#"><span class="fa fa-google-plus"></span></a>
-							<a href="#"><span class="fa fa-linkedin"></span></a>
-							<a href="#"><span class="fa fa-vimeo-square"></span></a>
-							<a href="#"><span class="fa fa-dribbble"></span></a>
-						</div>
-						<!-- ./social links -->
-					</div>
-					<!-- ./page footer holder -->
-				</div>
-				<!-- ./page footer wrap -->
-			</div>
-			<!-- ./page footer -->
+			
             
             
 		</div>
@@ -183,7 +159,7 @@
                     </div>
                   </a>
                   
-                  <a class="button col-xs-3" href="cover-single3.html">
+                  <a class="button col-xs-3" href="cover-single.html">
                     <div>
                                
                         <i class="fa flaticon-envelope fa-lg fa-inverse"></i>
@@ -193,7 +169,7 @@
                   </a>
                   
                   
-                <a class="button col-xs-3" href="cover-single3.html">
+                <a class="button col-xs-3" href="profile.html">
                     <div>
                      
                         
@@ -202,7 +178,7 @@
                       
                     </div>
                   </a>
-                  <a class="button col-xs-3" href="cover-single3.html">
+                  <a class="button col-xs-3" href="cover-single.html">
                     <div>
                       <span>
                         <i class="fa flaticon-settings fa-lg fa-inverse"></i>
@@ -220,6 +196,11 @@
 		<script type="text/javascript" src="js/plugins/bootstrap/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/plugins/mixitup/jquery.mixitup.js"></script>
 		<script type="text/javascript" src="js/plugins/appear/jquery.appear.js"></script>
+        <script type="text/javascript" src="js/horizon-swiper.min.js"></script>
+        <script type="text/javascript">
+          $('.horizon-swiper').horizonSwiper();
+        </script>
+      
 		<script src="js/highlight.pack.js"></script>
 		<script src="js/drawer.js"></script>
 		<script src="js/docs.js"></script>

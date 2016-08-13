@@ -19,10 +19,7 @@ $(document).ready(function(){
         $(".mix-grid").mixItUp();  
     // end MixItUp
     
-    // animate on scroll
-    $(".navigation-back-button").click(function(){
-        window.location = "index.html";       
-    });
+    
 	
 
     // end animate on scroll
@@ -81,3 +78,8 @@ function navController(){
     });    
     
 }// end navigation controller 
+
+// animate on scroll
+    $("#btnBack").click(function(){
+        window.location = "index.html";       
+    });
