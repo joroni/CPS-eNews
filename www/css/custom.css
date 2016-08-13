@@ -122,7 +122,7 @@ body.archive .page-container .page-header {
 }
 
 
-body.cover .page-container .page-header {
+/*body.cover .page-container .page-header {
     border-bottom: 0 none;
     float: left;
     height: 80px !important;
@@ -137,9 +137,44 @@ body.cover .page-container .page-header .page-header-holder .navigation-toggle {
     position: absolute !important;
     top: 5px !important;
     z-index: 20040 !important;
+}*/
+
+
+
+body.archive .page-container .page-header {
+    border-bottom: 0 none;
+    float: none !important;
+    height: 80px !important;
+    margin: 0;
+    padding: 10px 15px !important;
+    width: 100%;
+}
+
+.page-container .page-header {
+    border-bottom: 0 none;
+    float: left;
+    height: 80px !important;
+    margin: 0;
+    padding: 10px 15px !important;
+    width: 100%;
+}
+
+body.cover .page-container .page-header .page-header-holder .navigation-toggle,
+body.user-profile .page-container .page-header .page-header-holder .navigation-toggle,
+body.settings .page-container .page-header .page-header-holder .navigation-toggle,
+body.template .page-container .page-header .page-header-holder .navigation-toggle,
+body.login .page-container .page-header .page-header-holder .navigation-toggle,
+body.register .page-container .page-header .page-header-holder .navigation-toggle{
+    float: none !important;
+    left: 1px !important;
+    position: absolute !important;
+    top: 5px !important;
 }
 
 
+body.register .login-container {
+    background: #fff none !important;
+}
 .modal {
     bottom: 0;
     left: 0;
@@ -173,7 +208,22 @@ body.cover .page-container .page-header .page-header-holder .navigation-toggle {
 .button {
 	display: inline-block
 }
+
 .button div {
+    background: #fff none repeat scroll 0 0;
+    border-color: #006;
+    border-radius: 0;
+    border-style: outset;
+    border-width: 0;
+    display: table-cell;
+    height: 0;
+    margin: 0 auto;
+    padding: 0 10px;
+    vertical-align: middle;
+    width: auto;
+}
+
+footer .button div {
     background: #fff none repeat scroll 0 0;
     border-color: #006;
     border-radius: 0;
@@ -216,7 +266,7 @@ body.cover .page-container .page-header .page-header-holder .navigation-toggle {
 
 
 body.cover .page-container .padding-v-30 {
-    padding: 30px 15px !important;
+    padding: 10px !important;
 }
 
 .page-container .page-content .page-content-wrap .page-content-holder .thumbnails .thumbnail-item .thumbnail-info {
@@ -401,3 +451,4 @@ input, password, textarea {
 .btn-link {
 	color: #d10000 !important;
 }
+

@@ -2,7 +2,7 @@
 <html lang="en" class="body-full-height">
     <head>        
         <!-- META SECTION -->
-        <title>Atlant - Responsive Bootstrap Admin Template</title>            
+        <title>CPS e-Newsletter</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -16,11 +16,11 @@
         <!-- EOF CSS INCLUDE -->                                    
     </head>
     <body class="login">
-        
+         <div class="loader"><img src="img/loading.gif" style="display:block;"></div>
         <div class="login-container">
         
             <div class="login-box animated fadeInDown">
-                <div class="login-logo"></div>
+                <div class="login-logo" style="margin-top:30px !important;"></div>
                 <div class="login-body">
                   <form action="index.html" class="form-horizontal" method="post">
                     <div class="form-group">
@@ -60,11 +60,33 @@
             
         </div>
         
+    <script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="js/plugins/bootstrap/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/plugins/mixitup/jquery.mixitup.js"></script>
+        <script type="text/javascript" src="js/plugins/appear/jquery.appear.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script type="text/javascript">
+            $(function(){
+              SyntaxHighlighter.all();
+            });
+            $(window).load(function(){
+              $('.flexslider').flexslider({
+            	animation: "slide",
+            	animationLoop: false,
+				slideshow: false,
+            	start: function(slider){
+            	  $('body').removeClass('loading');
+            	}
+              });
+            });
+            
+            
+             
+        </script>
+        <script type="text/javascript" src="js/actions.js"></script>                
+        <!-- ./page scripts -->
     </body>
 </html>
-
-
-
 
 
 

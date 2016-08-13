@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<!-- META SECTION -->
-		<title>Atlant - Front-End Template</title>
+		 <title>CPS e-Newsletter</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -14,6 +14,7 @@
       
 	</head>
 	<body class="has-offcanvas archive">
+        <div class="loader"><img src="img/loading.gif" style="display:block;"></div>
 		<div aria-labelledby="docDrawer" class="drawer dw-xs-10 dw-sm-6 dw-md-5 fold in" id="docDrawer" aria-expanded="true" style="">
 			<div class="drawer-controls">
 				<a class="btn btn-default main-nav" aria-controls="docDrawer" aria-foldedopen="false" data-toggle="drawer" href="#docDrawer" aria-expanded="true"><i class="fa fa-align-justify"></i></a>
@@ -31,9 +32,9 @@
 				</div>
 				<ul class="drawer-fullnav" id="doc-nav">
 					
-					<li role="presentation" class="active"><a href="javascript.html">Register</a></li>
-					<li role="presentation"><a href="login.html">Login</a></li>
-                    <li role="presentation"><a href="about.html">About</a></li>
+					<li role="presentation"><a id="btnRegister" href="#" onClick="btnRegister();">Register</a></li>
+					<li role="presentation"><a id="btnLogin" href="#" onClick="btnLogin();">Login</a></li>
+                    <li role="presentation"><a id="btnAbout" href="#" onClick="btnAbout();">About</a></li>
 				</ul>
 				
 			</div>
@@ -46,17 +47,15 @@
 				<div class="page-header-holder">
 					<!-- page logo -->
 					<div class="logo">
-						<a href="index.html">Atlant - Front-end Template</a>
+						<a href="index.html">CPS e-Newsletter</a>
 					</div>
 					                        
 				</div>
 				<!-- ./page header holder -->
 			</div>
-			<!-- ./page header -->
-			<!-- page content -->
+			
 			<div class="page-content">
-				<!-- page content wrapper --><!-- ./page content wrapper -->
-				<!-- page content wrapper -->
+				
 				<div class="page-content-wrap">
 					<!-- page content holder -->
 					<div class="page-content-holder">
@@ -142,9 +141,6 @@
 			<!-- ./page content -->
 			<!-- page footer -->
             
-			
-            
-            
 		</div>
         
         <footer class="footer">
@@ -159,7 +155,7 @@
                     </div>
                   </a>
                   
-                  <a class="button col-xs-3" href="cover-single.html">
+                  <a class="button col-xs-3" href="templates.html">
                     <div>
                                
                         <i class="fa flaticon-envelope fa-lg fa-inverse"></i>
@@ -178,7 +174,7 @@
                       
                     </div>
                   </a>
-                  <a class="button col-xs-3" href="cover-single.html">
+                  <a class="button col-xs-3" href="settings.html">
                     <div>
                       <span>
                         <i class="fa flaticon-settings fa-lg fa-inverse"></i>
@@ -193,6 +189,8 @@
 		<!-- ./page container -->
 		<!-- page scripts -->
 		<script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>
+        
+      
 		<script type="text/javascript" src="js/plugins/bootstrap/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/plugins/mixitup/jquery.mixitup.js"></script>
 		<script type="text/javascript" src="js/plugins/appear/jquery.appear.js"></script>

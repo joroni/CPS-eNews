@@ -81,7 +81,7 @@ body {
   float: left;
   min-height: 100%;
   position: relative;
-  background: #33414e;
+  background: transparent !important;
   /* SIDEBAR */
   /* END SIDEBAR */
   /* CONTENT */
